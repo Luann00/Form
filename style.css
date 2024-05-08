@@ -1,19 +1,69 @@
-.screen{
-    height:100%;
-    display:flex;
-    margin:0;
-}
-
-.leftScreen{
-    width:30vw;
-    height:100vh;
-    background-color: blue;
-}
-
-.rightScreen{
-    width:70vw;
-    height:100vh;
-    background-color: green;
+.screen {
+    height: 100%;
+    display: flex;
+    margin: 0;
 }
 
 
+.leftScreen {
+    width: 30vw;
+    height: 100vh;
+}
+
+.rightScreen {
+    width: 70vw;
+    height: 100vh;
+}
+
+.section1 {
+    background-color: lightgray;
+    font-size: 20px;
+    font-style: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 form {
+    display: flex;
+    height: 100%;
+    flex-grow: 1;
+
+}
+
+.column {
+    flex-grow: 1;
+}
+
+button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.section1,
+.section2,
+.section3 {
+    height: 33.33%;
+}
+
+.column label,
+.column input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.section3 {
+    background-color: lightgray;
+    font-style: bold;
+}
+
+p {
+    width: 50%;
+}
