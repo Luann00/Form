@@ -1,0 +1,19 @@
+.screen{
+    height:100%;
+    display:flex;
+    margin:0;
+}
+
+.leftScreen{
+    width:30vw;
+    height:100vh;
+    background-color: blue;
+}
+
+.rightScreen{
+    width:70vw;
+    height:100vh;
+    background-color: green;
+}
+
+
