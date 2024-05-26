@@ -1,5 +1,5 @@
-body{
-    margin:0;
+body {
+    margin: 0;
 }
 
 .screen {
@@ -9,41 +9,55 @@ body{
 }
 
 
-.leftScreen{
+.leftScreen {
     width: 30vw;
     height: 100vh;
 }
 
 .image {
     background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
-    width:100%;
-    height:100%;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 
 }
 
 .rightScreen {
     width: 70vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.section1,
+.section2,
+.section3 {
+    font-family: "Arial";
+    flex: 1;
 }
 
 .section1 {
-    background-color: lightgray;
-    font-size: 20px;
+    background-color: rgb(231, 226, 226);
+    font-size: 16px;
     font-style: bold;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+
 .section2 form {
     display: flex;
     height: 100%;
-    flex-grow: 1;
-
 }
 
-.column {
-    flex-grow: 1;
+.formFields,
+p {
+    margin-right: 3%;
+}
+
+p {
+    width: 100%;
 }
 
 button {
@@ -59,20 +73,21 @@ button {
 
 }
 
-.container{
-    margin-left:5%;
+.container {
+    margin-left: 5%;
 }
 
-.section1,
-.section2,
-.section3 {
-    height: 33.33%;
+
+input:invalid {
+    border-color: red;
 }
 
-.column label,
-.column input {
+
+.formFields label,
+.formFields input {
     display: block;
     margin-bottom: 1%;
+    border-style: #214b9f;
 }
 
 
